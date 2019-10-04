@@ -1,0 +1,28 @@
+{
+  "name": "require-group-and-sort",
+  "version": "1.0.0",
+  "description": "Plugin to sort require statements based on a provided description",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanget81/require-group-and-sort.git"
+  },
+  "keywords": [
+    "require",
+    "sort",
+    "clean",
+    "group"
+  ],
+  "author": "Angel Campo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zanget81/require-group-and-sort/issues"
+  },
+  "homepage": "https://github.com/zanget81/require-group-and-sort#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "mocha": "^6.2.1"
+  }
+}
