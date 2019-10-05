@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Plugin to sort require statements based on a provided description",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "eslint .",
+    "test": "echo 0"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,17 @@
   "bugs": {
     "url": "https://github.com/zanget81/require-group-and-sort/issues"
   },
+  "bin": {
+    "madge": "./bin/cli.js"
+  },
   "homepage": "https://github.com/zanget81/require-group-and-sort#readme",
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "commander": "^3.0.2"
+  },
   "devDependencies": {
     "eslint": "^6.5.1",
-    "mocha": "^6.2.1"
+    "mocha": "^6.2.1",
+    "standard": "^14.3.1"
   }
 }
